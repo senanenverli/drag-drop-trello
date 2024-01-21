@@ -1,0 +1,12 @@
+
+{
+  "name": "your-project",
+  "version": "1.0.0",
+  "scripts": {
+    "sass:compile": "sass assets/scss  assets/css",
+    "sass:watch": "sass assets/scss :assets/css --watch "
+  },
+  "devDependencies": {
+    "sass": "^1.32.0"
+  }
+}

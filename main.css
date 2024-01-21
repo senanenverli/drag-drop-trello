@@ -1,0 +1,63 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  height: 100dvh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+  gap: 20px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.container #left {
+  background-color: white;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 1px red;
+  height: 300px;
+  width: 400px;
+}
+.container #right {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  border: solid 1px black;
+  height: 300px;
+  width: 400px;
+}
+
+div {
+  border-radius: 10px;
+  height: 30px;
+  width: 300px;
+  border: solid 1px #e3e3e3;
+}
+
+.list {
+  text-align: center;
+  gap: 10px;
+  background-color: grey;
+}
+
+.items {
+  gap: 10px;
+  height: 180;
+  width: 300px;
+  border: #e3e3e3;
+}
+
+/*# sourceMappingURL=main.css.map */
